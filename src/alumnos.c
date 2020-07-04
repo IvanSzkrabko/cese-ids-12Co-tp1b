@@ -25,18 +25,21 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+//! Constante del alumno Esteban
 static const struct alumno_s ESTEBAN_VOLENTINI = {
     .apellidos = "VOLENTINI",
     .nombres = "Esteban Daniel",
     .documento = "23.517.968",
 };
 
+//! Constante del alumno Ivan
 static const struct alumno_s IVAN_SZKRABKO = {
     .apellidos = "SZKRABKO",
     .nombres = "Ivan Leonel",
     .documento = "77.777.777",
 };
 
+//! Constante que almacena los punteros que apuntan a los datos de los alumnos
 const alumno_t ALUMNOS[] = {
     &ESTEBAN_VOLENTINI,
     &IVAN_SZKRABKO,
